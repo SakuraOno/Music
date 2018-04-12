@@ -14,6 +14,12 @@
 		2124E4EB20614F5800189B94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2124E4E920614F5800189B94 /* LaunchScreen.storyboard */; };
 		2124E4F620614F5900189B94 /* MusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2124E4F520614F5900189B94 /* MusicTests.swift */; };
 		2124E50120614F5900189B94 /* MusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2124E50020614F5900189B94 /* MusicUITests.swift */; };
+		2124E51520614FFB00189B94 /* aki.png in Resources */ = {isa = PBXBuildFile; fileRef = 2124E50F20614FFB00189B94 /* aki.png */; };
+		2124E51620614FFB00189B94 /* natsu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2124E51020614FFB00189B94 /* natsu.mp3 */; };
+		2124E51720614FFB00189B94 /* ame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2124E51120614FFB00189B94 /* ame.mp3 */; };
+		2124E51820614FFB00189B94 /* natsu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2124E51220614FFB00189B94 /* natsu.png */; };
+		2124E51920614FFB00189B94 /* ame.png in Resources */ = {isa = PBXBuildFile; fileRef = 2124E51320614FFB00189B94 /* ame.png */; };
+		2124E51A20614FFB00189B94 /* aki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2124E51420614FFB00189B94 /* aki.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		2124E4FC20614F5900189B94 /* MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2124E50020614F5900189B94 /* MusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicUITests.swift; sourceTree = "<group>"; };
 		2124E50220614F5900189B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2124E50F20614FFB00189B94 /* aki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aki.png; sourceTree = "<group>"; };
+		2124E51020614FFB00189B94 /* natsu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = natsu.mp3; sourceTree = "<group>"; };
+		2124E51120614FFB00189B94 /* ame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ame.mp3; sourceTree = "<group>"; };
+		2124E51220614FFB00189B94 /* natsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = natsu.png; sourceTree = "<group>"; };
+		2124E51320614FFB00189B94 /* ame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ame.png; sourceTree = "<group>"; };
+		2124E51420614FFB00189B94 /* aki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aki.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,7 @@
 			children = (
 				2124E4E020614F5800189B94 /* AppDelegate.swift */,
 				2124E4E220614F5800189B94 /* ViewController.swift */,
+				2124E50E20614FFB00189B94 /* Music素材 */,
 				2124E4E420614F5800189B94 /* Main.storyboard */,
 				2124E4E720614F5800189B94 /* Assets.xcassets */,
 				2124E4E920614F5800189B94 /* LaunchScreen.storyboard */,
@@ -124,6 +137,19 @@
 				2124E50220614F5900189B94 /* Info.plist */,
 			);
 			path = MusicUITests;
+			sourceTree = "<group>";
+		};
+		2124E50E20614FFB00189B94 /* Music素材 */ = {
+			isa = PBXGroup;
+			children = (
+				2124E50F20614FFB00189B94 /* aki.png */,
+				2124E51020614FFB00189B94 /* natsu.mp3 */,
+				2124E51120614FFB00189B94 /* ame.mp3 */,
+				2124E51220614FFB00189B94 /* natsu.png */,
+				2124E51320614FFB00189B94 /* ame.png */,
+				2124E51420614FFB00189B94 /* aki.mp3 */,
+			);
+			path = "Music素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,9 +259,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2124E51720614FFB00189B94 /* ame.mp3 in Resources */,
 				2124E4EB20614F5800189B94 /* LaunchScreen.storyboard in Resources */,
+				2124E51620614FFB00189B94 /* natsu.mp3 in Resources */,
+				2124E51A20614FFB00189B94 /* aki.mp3 in Resources */,
 				2124E4E820614F5800189B94 /* Assets.xcassets in Resources */,
 				2124E4E620614F5800189B94 /* Main.storyboard in Resources */,
+				2124E51920614FFB00189B94 /* ame.png in Resources */,
+				2124E51820614FFB00189B94 /* natsu.png in Resources */,
+				2124E51520614FFB00189B94 /* aki.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
